@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  position: fixed;
+  height: 60px;
+  border-bottom: 1px black solid;
+  width: 100%;
+  background-color: white;
+}
+
+.main {
+  padding-top: 60px;
+  min-height: calc(100vh - 122px);
+}
+
+.main li {
+  line-height: 20px;
+}
+
+.footer {
+  height: 60px;
+  border-top: 1px black solid;
+}
